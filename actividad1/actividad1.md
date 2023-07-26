@@ -52,4 +52,9 @@ En **User Mode**, los programas y procesos se ejecutan con privilegios limitados
 En **Kernel Mode**, el sistema operativo y los componentes fundamentales del sistema tienen acceso a privilegios completos y pueden realizar operaciones críticas, como acceder al hardware, gestionar la memoria y asignar recursos. En este modo, el sistema operativo puede ejecutar instrucciones y operaciones que no están disponibles en User Mode.
 
 **Características:**
-- **Privilegios completos:** El
+- **Privilegios completos:** El•	Privilegios completos: El sistema operativo en Kernel Mode tiene control total sobre el hardware y recursos del sistema, lo que le permite realizar tareas críticas para el funcionamiento del sistema.
+- **Acceso directo a hardware:** En este modo, el sistema operativo puede acceder directamente al hardware del sistema para realizar operaciones de E/S y gestionar recursos.
+- **Instrucciones privilegiadas:** Algunas instrucciones y operaciones de bajo nivel, necesarias para el funcionamiento del sistema, solo están permitidas en Kernel Mode.
+  
+###La diferencia clave entre User Mode y Kernel Mode radica en los privilegios y el nivel de control que tienen los procesos y el sistema operativo. El modo Usuario está destinado a aplicaciones y programas regulares, mientras que el modo Kernel está reservado para el sistema operativo y las operaciones críticas del sistema. La distinción entre ambos modos es esencial para garantizar la estabilidad, seguridad y el correcto funcionamiento del sistema operativo.
+
