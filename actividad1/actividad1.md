@@ -56,5 +56,5 @@ En **Kernel Mode**, el sistema operativo y los componentes fundamentales del sis
 - **Acceso directo a hardware:** En este modo, el sistema operativo puede acceder directamente al hardware del sistema para realizar operaciones de E/S y gestionar recursos.
 - **Instrucciones privilegiadas:** Algunas instrucciones y operaciones de bajo nivel, necesarias para el funcionamiento del sistema, solo están permitidas en Kernel Mode.
   
-###La diferencia clave entre User Mode y Kernel Mode radica en los privilegios y el nivel de control que tienen los procesos y el sistema operativo. El modo Usuario está destinado a aplicaciones y programas regulares, mientras que el modo Kernel está reservado para el sistema operativo y las operaciones críticas del sistema. La distinción entre ambos modos es esencial para garantizar la estabilidad, seguridad y el correcto funcionamiento del sistema operativo.
+### La diferencia clave entre User Mode y Kernel Mode radica en los privilegios y el nivel de control que tienen los procesos y el sistema operativo. El modo Usuario está destinado a aplicaciones y programas regulares, mientras que el modo Kernel está reservado para el sistema operativo y las operaciones críticas del sistema. La distinción entre ambos modos es esencial para garantizar la estabilidad, seguridad y el correcto funcionamiento del sistema operativo.
 
